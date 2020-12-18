@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>-- You should change this --</title>
+  </head>
+  <style>
+    .user {
+      width: 135px;
+      padding: 15px;
+      box-sizing: border-box;
+      border: 1px solid #ddd;
+      float: left;
+      margin-right: 10px;
+    }
+
+    .user__photo {
+      width: 100%;
+      display: block;
+      border-radius: 50%;
+      box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.35);
+    }
+
+    .user__name {
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .button {
+      width: 100%;
+      color: #222;
+      background: #ccc;
+      padding: 7px 12px;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      outline: none;
+    }
+
+    .button:active {
+      box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.4);
+    }
+
+    .button--primary {
+      background-color: blue;
+    }
+  </style>
+  <body>
+    <h1>Block Element Modifiers - BEM</h1>
+    <div class="user">
+      <img src="./images/user.jpg" alt="user" class="user__photo" />
+      <div class="user__name">Moti</div>
+      <button class="button button--primary">View profile</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+.header {
+    width:100%;
+    height:8vh;
+    min-height: 11rem;
+    background-color: $color-white;
+    padding:4rem;
+    font-family: 'Bebas Neue', cursive;
+
+    &__list_item {
+        float:left;
+        margin-left:1.5rem;
+    }
+
+    &__logo_image {
+            width:9.6rem;
+            height:7.8rem;
+           
+            object-fit:cover;
+
+            
+    }
+}
